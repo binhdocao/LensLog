@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15E1E2F12B56EF8F00C1892E /* LensLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1E2F02B56EF8F00C1892E /* LensLogApp.swift */; };
+		15E1E2F32B56EF8F00C1892E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1E2F22B56EF8F00C1892E /* ContentView.swift */; };
+		15E1E2F52B56EF8F00C1892E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1E2F42B56EF8F00C1892E /* Item.swift */; };
+		15E1E2F72B56EF9100C1892E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E1E2F62B56EF9100C1892E /* Assets.xcassets */; };
+		15E1E2FA2B56EF9100C1892E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E1E2F92B56EF9100C1892E /* Preview Assets.xcassets */; };
+		15E1E3042B56EF9100C1892E /* LensLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1E3032B56EF9100C1892E /* LensLogTests.swift */; };
+		15E1E30E2B56EF9100C1892E /* LensLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1E30D2B56EF9100C1892E /* LensLogUITests.swift */; };
+		15E1E3102B56EF9100C1892E /* LensLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1E30F2B56EF9100C1892E /* LensLogUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15E1E3002B56EF9100C1892E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15E1E2E52B56EF8F00C1892E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E1E2EC2B56EF8F00C1892E;
+			remoteInfo = LensLog;
+		};
+		15E1E30A2B56EF9100C1892E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15E1E2E52B56EF8F00C1892E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E1E2EC2B56EF8F00C1892E;
+			remoteInfo = LensLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15E1E2ED2B56EF8F00C1892E /* LensLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E1E2F02B56EF8F00C1892E /* LensLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensLogApp.swift; sourceTree = "<group>"; };
+		15E1E2F22B56EF8F00C1892E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15E1E2F42B56EF8F00C1892E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		15E1E2F62B56EF9100C1892E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15E1E2F92B56EF9100C1892E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15E1E2FF2B56EF9100C1892E /* LensLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LensLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E1E3032B56EF9100C1892E /* LensLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensLogTests.swift; sourceTree = "<group>"; };
+		15E1E3092B56EF9100C1892E /* LensLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LensLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E1E30D2B56EF9100C1892E /* LensLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensLogUITests.swift; sourceTree = "<group>"; };
+		15E1E30F2B56EF9100C1892E /* LensLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15E1E2EA2B56EF8F00C1892E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E1E2FC2B56EF9100C1892E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E1E3062B56EF9100C1892E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15E1E2E42B56EF8F00C1892E = {
+			isa = PBXGroup;
+			children = (
+				15E1E2EF2B56EF8F00C1892E /* LensLog */,
+				15E1E3022B56EF9100C1892E /* LensLogTests */,
+				15E1E30C2B56EF9100C1892E /* LensLogUITests */,
+				15E1E2EE2B56EF8F00C1892E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15E1E2EE2B56EF8F00C1892E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15E1E2ED2B56EF8F00C1892E /* LensLog.app */,
+				15E1E2FF2B56EF9100C1892E /* LensLogTests.xctest */,
+				15E1E3092B56EF9100C1892E /* LensLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15E1E2EF2B56EF8F00C1892E /* LensLog */ = {
+			isa = PBXGroup;
+			children = (
+				15E1E2F02B56EF8F00C1892E /* LensLogApp.swift */,
+				15E1E2F22B56EF8F00C1892E /* ContentView.swift */,
+				15E1E2F42B56EF8F00C1892E /* Item.swift */,
+				15E1E2F62B56EF9100C1892E /* Assets.xcassets */,
+				15E1E2F82B56EF9100C1892E /* Preview Content */,
+			);
+			path = LensLog;
+			sourceTree = "<group>";
+		};
+		15E1E2F82B56EF9100C1892E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15E1E2F92B56EF9100C1892E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15E1E3022B56EF9100C1892E /* LensLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				15E1E3032B56EF9100C1892E /* LensLogTests.swift */,
+			);
+			path = LensLogTests;
+			sourceTree = "<group>";
+		};
+		15E1E30C2B56EF9100C1892E /* LensLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15E1E30D2B56EF9100C1892E /* LensLogUITests.swift */,
+				15E1E30F2B56EF9100C1892E /* LensLogUITestsLaunchTests.swift */,
+			);
+			path = LensLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15E1E2EC2B56EF8F00C1892E /* LensLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E1E3132B56EF9100C1892E /* Build configuration list for PBXNativeTarget "LensLog" */;
+			buildPhases = (
+				15E1E2E92B56EF8F00C1892E /* Sources */,
+				15E1E2EA2B56EF8F00C1892E /* Frameworks */,
+				15E1E2EB2B56EF8F00C1892E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LensLog;
+			productName = LensLog;
+			productReference = 15E1E2ED2B56EF8F00C1892E /* LensLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15E1E2FE2B56EF9100C1892E /* LensLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E1E3162B56EF9100C1892E /* Build configuration list for PBXNativeTarget "LensLogTests" */;
+			buildPhases = (
+				15E1E2FB2B56EF9100C1892E /* Sources */,
+				15E1E2FC2B56EF9100C1892E /* Frameworks */,
+				15E1E2FD2B56EF9100C1892E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15E1E3012B56EF9100C1892E /* PBXTargetDependency */,
+			);
+			name = LensLogTests;
+			productName = LensLogTests;
+			productReference = 15E1E2FF2B56EF9100C1892E /* LensLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15E1E3082B56EF9100C1892E /* LensLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E1E3192B56EF9100C1892E /* Build configuration list for PBXNativeTarget "LensLogUITests" */;
+			buildPhases = (
+				15E1E3052B56EF9100C1892E /* Sources */,
+				15E1E3062B56EF9100C1892E /* Frameworks */,
+				15E1E3072B56EF9100C1892E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15E1E30B2B56EF9100C1892E /* PBXTargetDependency */,
+			);
+			name = LensLogUITests;
+			productName = LensLogUITests;
+			productReference = 15E1E3092B56EF9100C1892E /* LensLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15E1E2E52B56EF8F00C1892E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					15E1E2EC2B56EF8F00C1892E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					15E1E2FE2B56EF9100C1892E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 15E1E2EC2B56EF8F00C1892E;
+					};
+					15E1E3082B56EF9100C1892E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 15E1E2EC2B56EF8F00C1892E;
+					};
+				};
+			};
+			buildConfigurationList = 15E1E2E82B56EF8F00C1892E /* Build configuration list for PBXProject "LensLog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15E1E2E42B56EF8F00C1892E;
+			productRefGroup = 15E1E2EE2B56EF8F00C1892E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15E1E2EC2B56EF8F00C1892E /* LensLog */,
+				15E1E2FE2B56EF9100C1892E /* LensLogTests */,
+				15E1E3082B56EF9100C1892E /* LensLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15E1E2EB2B56EF8F00C1892E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E1E2FA2B56EF9100C1892E /* Preview Assets.xcassets in Resources */,
+				15E1E2F72B56EF9100C1892E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E1E2FD2B56EF9100C1892E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E1E3072B56EF9100C1892E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15E1E2E92B56EF8F00C1892E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E1E2F32B56EF8F00C1892E /* ContentView.swift in Sources */,
+				15E1E2F52B56EF8F00C1892E /* Item.swift in Sources */,
+				15E1E2F12B56EF8F00C1892E /* LensLogApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E1E2FB2B56EF9100C1892E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E1E3042B56EF9100C1892E /* LensLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E1E3052B56EF9100C1892E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E1E30E2B56EF9100C1892E /* LensLogUITests.swift in Sources */,
+				15E1E3102B56EF9100C1892E /* LensLogUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15E1E3012B56EF9100C1892E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15E1E2EC2B56EF8F00C1892E /* LensLog */;
+			targetProxy = 15E1E3002B56EF9100C1892E /* PBXContainerItemProxy */;
+		};
+		15E1E30B2B56EF9100C1892E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15E1E2EC2B56EF8F00C1892E /* LensLog */;
+			targetProxy = 15E1E30A2B56EF9100C1892E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15E1E3112B56EF9100C1892E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15E1E3122B56EF9100C1892E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15E1E3142B56EF9100C1892E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LensLog/Preview Content\"";
+				DEVELOPMENT_TEAM = PZWB43AU2U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BinhDoCao.LensLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15E1E3152B56EF9100C1892E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LensLog/Preview Content\"";
+				DEVELOPMENT_TEAM = PZWB43AU2U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BinhDoCao.LensLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15E1E3172B56EF9100C1892E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PZWB43AU2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BinhDoCao.LensLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LensLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LensLog";
+			};
+			name = Debug;
+		};
+		15E1E3182B56EF9100C1892E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PZWB43AU2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BinhDoCao.LensLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LensLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LensLog";
+			};
+			name = Release;
+		};
+		15E1E31A2B56EF9100C1892E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PZWB43AU2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BinhDoCao.LensLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LensLog;
+			};
+			name = Debug;
+		};
+		15E1E31B2B56EF9100C1892E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PZWB43AU2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BinhDoCao.LensLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LensLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15E1E2E82B56EF8F00C1892E /* Build configuration list for PBXProject "LensLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E1E3112B56EF9100C1892E /* Debug */,
+				15E1E3122B56EF9100C1892E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E1E3132B56EF9100C1892E /* Build configuration list for PBXNativeTarget "LensLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E1E3142B56EF9100C1892E /* Debug */,
+				15E1E3152B56EF9100C1892E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E1E3162B56EF9100C1892E /* Build configuration list for PBXNativeTarget "LensLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E1E3172B56EF9100C1892E /* Debug */,
+				15E1E3182B56EF9100C1892E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E1E3192B56EF9100C1892E /* Build configuration list for PBXNativeTarget "LensLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E1E31A2B56EF9100C1892E /* Debug */,
+				15E1E31B2B56EF9100C1892E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15E1E2E52B56EF8F00C1892E /* Project object */;
+}
