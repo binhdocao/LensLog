@@ -25,7 +25,7 @@ struct LensLogApp: App {
 
     var body: some Scene {
         WindowGroup {
-            WelcomeView()
+			ContactLensTrackerView()
         }
         .modelContainer(sharedModelContainer)
     }

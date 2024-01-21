@@ -43,7 +43,7 @@ struct WelcomeView: View {
 			HomePageView() // Replace with your actual home page view
 		} else {
 			TabView {
-				WelcomePageView(text: "LensLog", bgColor: .blue)
+				WelcomePageView(text: "LensLog", bgColor: Color(hex: "#4B91F1"))
 				WelcomePageView(text: "Capture Moments", bgColor: .green)
 				WelcomePageView(text: "Create Memories", bgColor: .purple, showButton: true) {
 					showHomePage = true
