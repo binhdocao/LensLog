@@ -14,9 +14,9 @@ struct SettingsButtonView: View {
 
 	var body: some View {
 		Menu {
-			Button("Other Page 1") { onOptionSelected(0) }
+			Button("Daily Wear") { onOptionSelected(0) }
 			Button("Prescription") { onOptionSelected(1) }
-			// Add more buttons for other pages as needed
+			Button("Settings") { onOptionSelected(2) }
 		} label: {
 			Image(systemName: "gear")
 				.padding(5)
