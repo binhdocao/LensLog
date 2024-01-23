@@ -23,6 +23,7 @@
 		15E91A6A2B5CA7E400ADB6C4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E91A692B5CA7E400ADB6C4 /* SettingsView.swift */; };
 		15E91A6C2B5CC78600ADB6C4 /* DailyWearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E91A6B2B5CC78600ADB6C4 /* DailyWearView.swift */; };
 		15E91A6E2B5CCC3E00ADB6C4 /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E91A6D2B5CCC3E00ADB6C4 /* CircularProgress.swift */; };
+		15E91A702B5D872B00ADB6C4 /* ContactBrands.csv in Resources */ = {isa = PBXBuildFile; fileRef = 15E91A6F2B5D872B00ADB6C4 /* ContactBrands.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		15E91A692B5CA7E400ADB6C4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		15E91A6B2B5CC78600ADB6C4 /* DailyWearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWearView.swift; sourceTree = "<group>"; };
 		15E91A6D2B5CCC3E00ADB6C4 /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
+		15E91A6F2B5D872B00ADB6C4 /* ContactBrands.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ContactBrands.csv; sourceTree = "<group>"; };
+		15E91A712B5D8E0A00ADB6C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +115,14 @@
 		15E1E2EF2B56EF8F00C1892E /* LensLog */ = {
 			isa = PBXGroup;
 			children = (
+				15E91A712B5D8E0A00ADB6C4 /* Info.plist */,
 				15E1E3212B5C2BAD00C1892E /* HomePageView.swift */,
 				15E1E2F02B56EF8F00C1892E /* LensLogApp.swift */,
 				15E1E2F22B56EF8F00C1892E /* ContentView.swift */,
 				15E1E2F42B56EF8F00C1892E /* Item.swift */,
 				15E1E2F62B56EF9100C1892E /* Assets.xcassets */,
 				15E1E2F82B56EF9100C1892E /* Preview Content */,
+				15E91A6F2B5D872B00ADB6C4 /* ContactBrands.csv */,
 				15E1E31C2B56F1F700C1892E /* WelcomeView.swift */,
 				15E1E3232B5C8CBE00C1892E /* PrescriptionView.swift */,
 				15E91A672B5C9FBB00ADB6C4 /* TrackerView.swift */,
@@ -264,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15E1E2FA2B56EF9100C1892E /* Preview Assets.xcassets in Resources */,
+				15E91A702B5D872B00ADB6C4 /* ContactBrands.csv in Resources */,
 				15E1E2F72B56EF9100C1892E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +471,7 @@
 				DEVELOPMENT_TEAM = PZWB43AU2U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LensLog/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = LensLog;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -472,12 +479,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BinhDoCao.LensLog;
+				PRODUCT_BUNDLE_IDENTIFIER = App.BinhDoCao.LensLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -500,6 +508,7 @@
 				DEVELOPMENT_TEAM = PZWB43AU2U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LensLog/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = LensLog;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -507,12 +516,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BinhDoCao.LensLog;
+				PRODUCT_BUNDLE_IDENTIFIER = App.BinhDoCao.LensLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
