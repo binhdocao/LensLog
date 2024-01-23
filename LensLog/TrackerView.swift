@@ -52,6 +52,7 @@ struct ContactLensTrackerView: View {
 							// Handle the selection from settings
 							handleOptionSelected(selectedOption)
 						}
+						
 						Spacer()
 						// Other elements in the header
 					}
@@ -124,6 +125,7 @@ struct ContactLensTrackerView: View {
 				}.hidden()
 			}
 		}
+		.accentColor(.white)
 		.navigationBarTitle("Lens Usage Tracker", displayMode: .inline)
 		.sheet(isPresented: $showingAddNewPairSheet) {
 			AddNewPairSheet(isCurrentPairAdded: $currentPairAdded, numberOfPairs: $numberOfPairs, contactType: $contactType, startDate: $startDate)

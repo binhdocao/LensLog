@@ -66,9 +66,9 @@ struct PrescriptionView: View {
 	@State private var rightEyeBrandIndex: Int? = UserDefaults.standard.object(forKey: "rightEyeBrandIndex") as? Int
 
 	let SPHValues = Array(stride(from: -10.00, through: 8.00, by: 0.25)).map { String(format: "%+.2f", $0) }
-	let CYLValues = Array(stride(from: -4.00, through: 4.00, by: 0.25)).map { String(format: "%+.2f", $0) }
-	let AXISValues = (0...180).map { String($0) }
-	let ADDValues = Array(stride(from: 0.75, through: 3.00, by: 0.25)).map { String(format: "%+.2f", $0) }
+	let CYLValues = Array(stride(from: -5.00, through: 5.00, by: 0.25)).map { String(format: "%+.2f", $0) }
+	let AXISValues = (1...180).map { String($0) }
+	let ADDValues = Array(stride(from: 0.0, through: 3.00, by: 0.25)).map { String(format: "%+.2f", $0) }
 	let BCValues = Array(stride(from: 8.0, through: 10.0, by: 0.1)).map { String(format: "%.1f", $0) }
 	let DIAValues = Array(stride(from: 13.0, through: 15.0, by: 0.1)).map { String(format: "%.1f", $0) }
 	let contactBrands = loadContactBrands(from: "ContactBrands")
@@ -121,7 +121,12 @@ struct PrescriptionView: View {
 						Button(action: {
 							self.showImagePicker = true
 						}) {
-							Text("Upload Prescription Image")
+							Text("Upload Image")
+								.foregroundColor(.black)
+								.padding(9)
+								.frame(maxWidth: .infinity)
+								.background(Color(.systemGray6)) // Choose a color that contrasts well
+								.cornerRadius(10)
 						}
 						.sheet(isPresented: $showImagePicker) {
 							ImagePicker(image: self.$prescriptionImage, onImagePicked: imageSelected)
@@ -134,6 +139,7 @@ struct PrescriptionView: View {
 						}
 					}
 				}
+				.accentColor(.white)
 				.navigationBarTitle("Contact Lens Prescription", displayMode: .inline)
 				.scrollContentBackground(.hidden)
 			}
